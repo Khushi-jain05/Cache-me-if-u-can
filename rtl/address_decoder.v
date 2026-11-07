@@ -24,4 +24,4 @@ module address_decoder (
     // Extract the word index (bits 3 to 2)
     assign word_index = address[3:2];
 
-endmodule;
+endmodule

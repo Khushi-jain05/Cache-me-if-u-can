@@ -1,0 +1,52 @@
+INTEGRATED CACHE SIMULATION RESULTS
+==================================
+
+Simulation status: PASSED
+Total data verification errors: 0
+
+TRACE RESULTS
+-------------
+
+1. Sequential Access
+   Total accesses: 12
+   Hits: 9
+   Misses: 3
+   Errors: 0
+
+2. Repeated Access
+   Total accesses: 9
+   Hits: 8
+   Misses: 1
+   Errors: 0
+
+3. Random Access
+   Total accesses: 12
+   Hits: 2
+   Misses: 10
+   Errors: 0
+
+4. Conflict Access
+   Total accesses: 9
+   Hits: 0
+   Misses: 9
+   Errors: 0
+
+OVERALL RESULTS
+---------------
+
+Total accesses: 42
+Total hits: 19
+Total misses: 23
+Total errors: 0
+
+Hit rate: 45.24%
+Miss rate: 54.76%
+
+Average hit latency: 1 cycle
+Average miss latency: 8 cycles
+
+Measured AMAT: 4.83 cycles
+
+Conclusion:
+All 42 memory accesses returned the expected data.
+All four access-pattern tests completed successfully.
